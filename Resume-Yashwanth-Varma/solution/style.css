@@ -1,0 +1,199 @@
+body {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 14px;
+    max-width: 960px;
+    margin: auto;
+    color: #333;
+    padding: 0 15px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin: 0.5em 0;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 0.2em;
+    margin-bottom: 1em;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 0.3em;
+    color: #333;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr; /* Default to single column */
+    gap: 2em;
+    margin-top: 2em;
+}
+
+@media (min-width: 768px) {
+    main {
+        grid-template-columns: 40% 60%; /* Two-column layout for larger screens */
+    }
+}
+
+#mainLeft, #mainRight {
+    padding: 1em;
+}
+
+#mainLeft {
+    border-right: 2px solid lightgray;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+ul li i {
+    margin-right: 0.5em;
+    color: #0073e6;
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+ul li i:hover {
+    transform: scale(1.2); /* Scale effect on hover */
+}
+
+b {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #0073e6;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid lightgray;
+    margin: 1em 0;
+}
+
+/* Education Section Styling */
+#education {
+    margin-top: 2em;
+}
+
+.education-item {
+    margin-bottom: 1.5em;
+}
+
+.education-item h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 0.3em;
+    color: #333;
+}
+
+.education-item p {
+    margin: 0.2em 0;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.education-item p b {
+    color: #000;
+    font-weight: bold;
+}
+
+/* Project Section */
+.project {
+    margin-bottom: 30px;
+}
+
+.project h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.project .date {
+    font-weight: bold;
+    color: #555;
+    font-size: 14px;
+}
+
+.project ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.project li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.contact-item i {
+    font-size: 1.2em;
+    margin-right: 10px;
+    color: #0073e6;
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.contact-item i:hover {
+    transform: scale(1.2); /* Scale effect on hover */
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: #0073e6;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}
+
+.skills {
+    margin-top: 1em;
+}
+
+.skill-category {
+    margin-bottom: 1em;
+}
+
+.skill-category h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    margin-bottom: 0.3em;
+    color: #333;
+    font-weight: bold;
+}
+
+.skill-category p {
+    margin: 0;
+    color: #555;
+    font-size: 0.9em;
+}
